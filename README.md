@@ -1,10 +1,10 @@
-### Config
+# Config
 
 ## NeoVim
 
 - barebones custom neovim setup
 
-# Plugins
+### Plugins
 
 1. telescope.nvim 
 2. lsp-zero/mason.nvim 
@@ -16,7 +16,7 @@
 
 - barebones tmux setup
 
-# Plugins
+### Plugins
 
 1. tmux package manage (tpm) 
 
