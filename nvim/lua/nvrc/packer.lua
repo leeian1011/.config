@@ -6,8 +6,11 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
+
+    -- AESTHETICS
 	use 'Mofiqul/dracula.nvim'
-    use 'nvim-treesitter/nvim-treesitter'
+
+    -- Navigation
     use 'nvim-tree/nvim-tree.lua'
 
 	use {
@@ -15,7 +18,13 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
+
 	use("theprimeagen/harpoon")
+
+
+
+    --- LSP Package && Highlighting
+    use 'nvim-treesitter/nvim-treesitter'
 
     use {
         'VonHeikemen/lsp-zero.nvim',
