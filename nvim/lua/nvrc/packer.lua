@@ -10,6 +10,8 @@ return require('packer').startup(function(use)
     -- AESTHETICS
 	use 'Mofiqul/dracula.nvim'
 
+    use {'akinsho/bufferline.nvim', tag = "*", requires = 'nvim-tree/nvim-web-devicons'}
+
     -- Navigation
     use 'nvim-tree/nvim-tree.lua'
 
@@ -18,10 +20,6 @@ return require('packer').startup(function(use)
 		-- or                            , branch = '0.1.x',
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
-
-	use("theprimeagen/harpoon")
-
-
 
     --- LSP Package && Highlighting
     use 'nvim-treesitter/nvim-treesitter'

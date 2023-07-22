@@ -70,7 +70,7 @@ end
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
   view = {
-    width = 50,
+    width = 30,
   },
 
         renderer = {
@@ -100,8 +100,8 @@ require("nvim-tree").setup({
           padding = " ",
           symlink_arrow = " ➛ ",
           show = {
-            file = false,
-            folder = false,
+            file = true,
+            folder = true,
             folder_arrow = true,
             git = true,
             modified = true,
