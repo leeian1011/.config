@@ -8,7 +8,6 @@
 
 1. telescope.nvim 
 2. lsp-zero/mason.nvim 
-3. harpoon.nvim (goat)
 4. tree-sitter.nvim
 5. nvimtree
 
