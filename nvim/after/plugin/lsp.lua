@@ -32,22 +32,6 @@ end)
 -- (Optional) Configure lua language server for neovim
 require('lspconfig').lua_ls.setup(lsp.nvim_lua_ls())
 
-
---cal cmp = require('cmp')
---cal cmp_select = {behavior = cmp.SelectBehavior.Select}
---cal cmp_mappings = lsp.defaults.cmp_mappings({
---['<TAB>'] = cmp.mapping.select_next_item(cmp_select),
---['<S-TAB>'] = cmp.mapping.select_prev_item(cmp_select),
---['<S-l>'] = cmp.mapping.confirm({ select = true }),
---['<C-c>'] = cmp.mapping.complete(),
---
-
---p_mappings['<Tab>'] = nil
---p_mappings['<S-Tab>'] = nil
---p.setup_nvim_cmp({
---apping = cmp_mappings
---)
-
 lsp.setup()
 
 -- cmp.nvim config
